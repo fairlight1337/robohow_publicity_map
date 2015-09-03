@@ -1,0 +1,92 @@
+body {
+    margin: 0px;
+    margin-top: 50px;
+    background-color: white;
+}
+
+div, span, td, body, button, select {
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+    font-size: 8pt;
+}
+
+button, select {
+    border: 1px solid black;
+    padding: 3px;
+}
+
+button:hover, select:hover {
+    background-color: lightgrey;
+}
+
+canvas.draw-map {
+    border: 1px solid black;
+    display: inline-block;
+}
+
+img.hidden {
+    display: none
+}
+
+div.quickdetails {
+    display: inline-block;
+    border: 1px solid black;
+    background-color: white;
+    
+    padding: 5px;
+    position: absolute;
+}
+
+div.article_list {
+    display: inline-block;
+    border: 1px solid black;
+    
+    width: 594px;
+    padding: 3px;
+}
+
+span.article_list_header {
+    text-align: left;
+    font-size: 12pt;
+    
+    width: 100%;
+    
+    display: inline-block;
+}
+
+div.link_container {
+    width: 100%;
+    display: inline-block;
+    
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.odd {
+    background-color: #ffffff;
+}
+
+.even {
+    background-color: #eeeeee;
+}
+
+span.link_portal {
+    width: 28%;
+    display: inline-block;
+    text-align: right;
+    
+    background-color: transparent;
+}
+
+span.link_title {
+    width: 70%;
+    display: inline-block;
+    text-align: left;
+    
+    text-decoration: underline;
+    background-color: transparent;
+    
+    font-weight: 300;
+    font-size: 10pt;
+}
