@@ -19,4 +19,10 @@ country_data =
      "indonesia": {"name": "Indonesia"},
      "vietnam": {"name": "Vietnam"},
      "argentina": {"name": "Argentina"},
-     "belgium": {"name": "Belgium"}};
+     "belgium": {"name": "Belgium"},
+     "spain": {"name": "Spain"},
+     "portugal": {"name": "Portugal"},
+     "chile": {"name": "Chile"},
+     "brazil": {"name": "Brazil"},
+     "belgium": {"name": "Belgium"},
+     "monaco": {"name": "Monaco"}};

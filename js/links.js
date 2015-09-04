@@ -287,5 +287,53 @@ link_data =
 	    "portal": "Bloomberg Business",
 	    "url": "http://www.bloomberg.com/bw/articles/2014-07-03/transfer-learning-robots-teach-other-robots-via-the-cloud",
 	    "country": "united states"
+	},
+	{
+	    "name": "Wenn Roboter Waffeln backen",
+	    "portal": "Berliner Morgenpost",
+	    "url": "http://www.morgenpost.de/vermischtes/article205635261/Wenn-Roboter-Waffeln-backen.html",
+	    "country": "germany"
+	},
+	{
+	    "name": "Forscher bringen Robotern Alltagstauglichkeit bei",
+	    "portal": "Hamburger Abendblatt",
+	    "url": "http://www.abendblatt.de/incoming/article205634975/Forscher-bringen-Robotern-Alltagstauglichkeit-bei.html",
+	    "country": "germany"
+	},
+	{
+	    "name": "RoboHow: i robot imparano a cucinare",
+	    "portal": "ECOage",
+	    "url": "http://www.ecoage.com/robohow-i-robot-imparano-a-cucinare-20150904.htm",
+	    "country": "italy"
+	},
+	{
+	    "name": "Los robots del futuro serán compañeros capaces de reconocer las emociones humanas",
+	    "portal": "Prisa Radio",
+	    "url": "http://www.adnradio.cl/noticias/sociedad/los-robots-del-futuro-seran-companeros-capaces-de-reconocer-las-emociones-humanas/20150902/nota/2915968.aspx",
+	    "country": "chile"
+	},
+	{
+	    "name": "Des robots pizzaïolos ou crêpiers bientôt mis au point",
+	    "portal": "Radio Monaco",
+	    "url": "http://www.radio-monaco.com/news/high-tech/item/6990-des-robots-pizzaiolos-ou-crepiers-bientot-mis-au-point",
+	    "country": "monaco"
+	},
+	{
+	    "name": "Unos robots aprenden a hacer tortitas leyendo los pasos de la receta en WikiHow",
+	    "portal": "MIT Technology Review",
+	    "url": "https://www.technologyreview.es/robotica/48078/unos-robots-aprenden-a-hacer-tortitas-leyendo-los/",
+	    "country": "spain"
+	},
+	{
+	    "name": "Robôs Aprendem a Fazer Panquecas de Artigos no WikiHow",
+	    "portal": "MIT Technology Review",
+	    "url": "http://www.technologyreview.com.br/read_article.aspx?id=48095",
+	    "country": "brazil"
+	},
+	{
+	    "name": "União Europeia cria 'Wikipédia para robots'",
+	    "portal": "Notícias Ao Minuto",
+	    "url": "http://www.noticiasaominuto.com/tech/440404/uniao-europeia-cria-wikipedia-para-robots",
+	    "country": "portugal"
 	}
     ]
