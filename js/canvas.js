@@ -21,6 +21,20 @@ function init_canvas(canvas, map) {
     
     ctx = map_canvas.getContext("2d");
     
+    var all_countries = new Array();
+    for(var i = 0; i < link_data.length; i++) {
+	all_countries.push(link_data[i]["country"]);
+    }
+    
+    var countries_without_polygon = new Array();
+    for(var i = 0; i < all_countries.length; i++) {
+	if(get_details_for_country(all_countries[i]) == undefined) {
+	    countries_without_polygon.push(all_countries[i]);
+	}
+    }
+    
+    console.log(countries_without_polygon);
+    
     clear_canvas();
     
     redraw_canvas();

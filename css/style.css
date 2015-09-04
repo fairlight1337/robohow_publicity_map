@@ -90,6 +90,7 @@ span.link_portal {
     width: 28%;
     display: inline-block;
     text-align: right;
+    vertical-align: middle;
     
     background-color: transparent;
 }
