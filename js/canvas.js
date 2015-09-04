@@ -22,18 +22,47 @@ function init_canvas(canvas, map) {
     ctx = map_canvas.getContext("2d");
     
     var countries_without_polygon = new Array();
+    var select = document.getElementById("country_list");
+    
+    var el = document.createElement("option");
+    el.textContent = "<Select a Country>";
+    el.value = "";
+    select.appendChild(el);
+    var country_ids = new Array();
     
     for(var country in country_data) {
 	if(get_country(country).length == 0) {
 	    countries_without_polygon.push(country);
 	}
+	
+	country_ids.push(country);
     }
     
-    console.log(countries_without_polygon);
+    country_ids.sort();
+    
+    for(var i = 0; i < country_ids.length; i++) {
+	country = country_ids[i];
+	
+	var country_name = get_details_for_country(country)["name"];
+	el = document.createElement("option");
+	
+	var num_links = get_links_for_country(country).length;
+	el.textContent = country_name + " (" + num_links + " article" + (num_links == 1 ? "" : "s") + ")";
+	el.value = country;
+	select.appendChild(el);
+    }
+    
+    //console.log(countries_without_polygon);
     
     clear_canvas();
     
     redraw_canvas();
+}
+
+
+function select_country(dropdown) {
+    hovered_country = dropdown.value;
+    do_mousedown();
 }
 
 
@@ -47,7 +76,11 @@ function redraw_canvas() {
     for(var i = 0; i < world_data.length; i++) {
 	if(get_links_for_country(world_data[i]["name"]).length > 0) {
 	    if(mouse_is_over(world_data[i]["name"]) || world_data[i]["name"] == selected_country) {
-		draw_country(world_data[i]["name"], "#00ff00");
+		if(world_data[i]["name"] == selected_country) {
+		    draw_country(world_data[i]["name"], "#00ff00");
+		} else {
+		    draw_country(world_data[i]["name"], "#00dd00");
+		}
 		
 		if(world_data[i]["name"] != selected_country || (mouse_is_over(world_data[i]["name"]) && world_data[i]["name"] == selected_country)) {
 		    hovered_country = world_data[i]["name"];
@@ -184,8 +217,15 @@ function mouse_move(event) {
 function mouse_down(event) {
     "use strict";
     
+    do_mousedown();
+}
+
+
+function do_mousedown() {
     if(hovered_country != "") {
 	selected_country = hovered_country;
+	var dropdown = document.getElementById("country_list");
+	dropdown.value = selected_country;
 	
 	var contents = document.getElementById("article_list_contents");
 	var links = get_links_for_country(selected_country);

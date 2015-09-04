@@ -2,6 +2,7 @@ body {
     margin: 0px;
     margin-top: 20px;
     background-color: white;
+    overflow-y: scroll;
 }
 
 div, span, td, body, button, select {
@@ -23,10 +24,22 @@ button:hover, select:hover {
 canvas.draw-map {
     border: 1px solid black;
     display: inline-block;
+    
+    margin-top: 10px;
+}
+
+select.country_list {
+    width: 200px;
+}
+
+span.dropdown {
+    width: 201px;
+    display: inline-block;
+    text-align: right;
 }
 
 span.header {
-    width: 600;
+    width: 401px;
     display: inline-block;
     
     font-weight: 700;
