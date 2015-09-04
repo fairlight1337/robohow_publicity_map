@@ -12,8 +12,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   </head>
   
-  <body onload="init_canvas(document.getElementById('map-display'), document.getElementById('world-map'));">
+  <body onload="init_canvas(document.getElementById('map-display'), document.getElementById('world-map'), document.getElementById('robohow-logo'));">
     <img class="hidden" id="world-map" src="img/world_map.svg" />
+    <img class="hidden" id="robohow-logo" src="img/robohow.svg" />
     
     <center>
       <span class="header">RoboHow - Press Coverage Worldwide</span><span class="dropdown"><select class="country_list" id="country_list" onchange="select_country(this);"></select></span>
@@ -34,7 +35,7 @@
       <div class="article_list">
 	<span class="article_list_header">Articles<span class="article_list_country" id="article_list_country"></span></span>
 	<p />
-	<span id="article_list_contents">
+	<span id="article_list_contents" class="article_list_contents">
 	  Please select a country to display articles
 	</span>
       </div>

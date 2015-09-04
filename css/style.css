@@ -50,6 +50,8 @@ span.header {
     font-size: 12pt;
     
     text-align: left;
+    
+    cursor: default;
 }
 
 img.hidden {
@@ -76,6 +78,8 @@ div.article_list {
 span.article_list_country {
     text-align: left;
     font-size: 12pt;
+    
+    cursor: default;
 }
 
 span.article_list_header {
@@ -85,6 +89,11 @@ span.article_list_header {
     width: 100%;
     
     display: inline-block;
+    cursor: default;
+}
+
+span.article_list_contents {
+    cursor: default;
 }
 
 div.link_container {

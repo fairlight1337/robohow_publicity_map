@@ -38,7 +38,7 @@
 
 
 var ctx, map_canvas;
-var world_map, world_data;
+var world_map, world_data, robohow_logo;
 var mouse_x, mouse_y;
 var hovered_country;
 var selected_country;
@@ -52,11 +52,12 @@ function clear_canvas() {
 }
 
 
-function init_canvas(canvas, map) {
+function init_canvas(canvas, map, logo) {
     "use strict";
     
     world_map = map;
     map_canvas = canvas;
+    robohow_logo = logo;
     
     ctx = map_canvas.getContext("2d");
     
@@ -111,21 +112,24 @@ function redraw_canvas() {
     clear_canvas();
     ctx.drawImage(world_map, 0, 0, parseInt(map_canvas.width), parseInt(map_canvas.height));
     
+    var logo_width = 100;
+    ctx.drawImage(robohow_logo, 10, map_canvas.height - (robohow_logo.height * (logo_width / robohow_logo.width)) - 10, logo_width, (logo_width / robohow_logo.width) * robohow_logo.height);
+    
     hovered_country = ""
     for(var i = 0; i < world_data.length; i++) {
 	if(get_links_for_country(world_data[i]["name"]).length > 0) {
 	    if(mouse_is_over(world_data[i]["name"]) || world_data[i]["name"] == selected_country) {
 		if(world_data[i]["name"] == selected_country) {
-		    draw_country(world_data[i]["name"], "#00ff00");
+		    draw_country(world_data[i]["name"], "#56b3cf");
 		} else {
-		    draw_country(world_data[i]["name"], "#00dd00");
+		    draw_country(world_data[i]["name"], "#3693af");
 		}
 		
 		if(world_data[i]["name"] != selected_country || (mouse_is_over(world_data[i]["name"]) && world_data[i]["name"] == selected_country)) {
 		    hovered_country = world_data[i]["name"];
 		}
 	    } else {
-		draw_country(world_data[i]["name"], "#4fbf53");
+		draw_country(world_data[i]["name"], "#16738f");
 	    }
 	}
     }
