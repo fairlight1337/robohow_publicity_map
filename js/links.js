@@ -124,7 +124,7 @@ link_data =
 	    "name": "Robots Learn to Make Pancakes from WikiHow Articles",
 	    "portal": "MIT Technology Review",
 	    "url": "http://www.technologyreview.com/news/540781/robots-learn-to-make-pancakes-from-wikihow-articles/",
-	    "country": "united stated"
+	    "country": "united states"
 	},
 	{
 	    "name": "Robots are now learning how to cook breakfast",
@@ -142,7 +142,7 @@ link_data =
 	    "name": "RoboHow, un proyecto para que robots aprendan a hacer tareas mediante la comprensión de instrucciones escritas",
 	    "portal": "Diario San Rafael",
 	    "url": "http://ftp.diariosanrafael.com.ar/secciones-fijas/tecnologia/47236-robohow-un-proyecto-para-que-robots-aprendan-a-hacer-tareas-mediante-la-comprension-de-instrucciones-escritas",
-	    "country": "middle south america"
+	    "country": "argentinia"
 	},
 	{
 	    "name": "This Robot Reads WikiHow Guides To Make Breakfast",
