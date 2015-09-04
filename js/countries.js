@@ -1,3 +1,5 @@
 country_data =
-    {"australia": {"name": "Australien"},
-     "france": {"name": "Frankreich"}};
+    {"australia": {"name": "Australia"},
+     "france": {"name": "France"},
+     "united states": {"name": "USA"},
+     "canada": {"name": "Canada"}};

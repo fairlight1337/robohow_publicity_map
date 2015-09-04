@@ -2,6 +2,7 @@ var ctx, map_canvas;
 var world_map, world_data;
 var mouse_x, mouse_y;
 var hovered_country;
+var selected_country;
 
 
 function clear_canvas() {
@@ -35,9 +36,12 @@ function redraw_canvas() {
     hovered_country = ""
     for(var i = 0; i < world_data.length; i++) {
 	if(get_links_for_country(world_data[i]["name"]).length > 0) {
-	    if(mouse_is_over(world_data[i]["name"])) {
+	    if(mouse_is_over(world_data[i]["name"]) || world_data[i]["name"] == selected_country) {
 		draw_country(world_data[i]["name"], "#00ff00");
-		hovered_country = world_data[i]["name"];
+		
+		if(world_data[i]["name"] != selected_country || (mouse_is_over(world_data[i]["name"]) && world_data[i]["name"] == selected_country)) {
+		    hovered_country = world_data[i]["name"];
+		}
 	    } else {
 		draw_country(world_data[i]["name"], "#4fbf53");
 	    }
@@ -57,7 +61,7 @@ function redraw_canvas() {
 	
 	var links = get_links_for_country(hovered_country);
 	var articles = document.getElementById("quickarticles");
-	articles.innerHTML = links.length + " Artikel";
+	articles.innerHTML = links.length + " Article" + (links.length == 1 ? "" : "s");
 	
 	quickdetails.style.left = mouse_x + map_canvas.offsetLeft;
 	quickdetails.style.top = mouse_y + map_canvas.offsetTop - 50;
@@ -142,9 +146,11 @@ function draw_country(country_name, color) {
     scale_x = map_canvas.width / world_map.width;
     scale_y = map_canvas.height / world_map.height;
     
-    ctx.moveTo(country["polygon-points"][0]["x"] * scale_x, country["polygon-points"][0]["y"] * scale_y);
-    for(var i = 1; i < country["polygon-points"].length; i++) {
-	ctx.lineTo(country["polygon-points"][i]["x"] * scale_x, country["polygon-points"][i]["y"] * scale_y);
+    if(country["polygon-points"].length > 0) {
+	ctx.moveTo(country["polygon-points"][0]["x"] * scale_x, country["polygon-points"][0]["y"] * scale_y);
+	for(var i = 1; i < country["polygon-points"].length; i++) {
+	    ctx.lineTo(country["polygon-points"][i]["x"] * scale_x, country["polygon-points"][i]["y"] * scale_y);
+	}
     }
     
     ctx.closePath();
@@ -156,8 +162,10 @@ function draw_country(country_name, color) {
 function mouse_move(event) {
     "use strict";
     
-    mouse_x = event.clientX - map_canvas.offsetLeft;
-    mouse_y = event.clientY - map_canvas.offsetTop;
+    //console.log(event.offsetX);
+    
+    mouse_x = event.offsetX;//event.clientX - map_canvas.offsetLeft;
+    mouse_y = event.offsetY;//event.clientY - map_canvas.offsetTop;
     
     redraw_canvas();
 }
@@ -167,8 +175,10 @@ function mouse_down(event) {
     "use strict";
     
     if(hovered_country != "") {
+	selected_country = hovered_country;
+	
 	var contents = document.getElementById("article_list_contents");
-	var links = get_links_for_country(hovered_country);
+	var links = get_links_for_country(selected_country);
 	
 	contents.innerHTML = "";
 	
@@ -183,9 +193,28 @@ function mouse_down(event) {
 		list_class = "odd";
 	    }
 	    
+	    var article_list_country = document.getElementById("article_list_country");
+	    var country = get_details_for_country(selected_country);
+	    article_list_country.innerHTML = " (" + country["name"] + ")";
+	    
 	    contents.innerHTML += "<a target=\"_blank\" href=\"" + links[i]["url"] + "\"><div class=\"link_container " + list_class + "\"><span class=\"link_title\">" + title + "</span><span class=\"link_portal\">" + portal + "</span></div></a>";
 	}
+    } else {
+	selected_country = "";
+	
+	var contents = document.getElementById("article_list_contents");
+	contents.innerHTML = "Please select a country to display articles";
+	
+	var article_list_country = document.getElementById("article_list_country");
+	article_list_country.innerHTML = "";
     }
+    
+    redraw_canvas();
+    
+    scale_x = map_canvas.width / world_map.width;
+    scale_y = map_canvas.height / world_map.height;
+    
+    console.log("{\n\t\"x\": " + (mouse_x / scale_x) + ",\n\t\"y\": " + (mouse_y / scale_y) + "\n},");
 }
 
 

@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    margin-top: 50px;
+    margin-top: 20px;
     background-color: white;
 }
 
@@ -25,6 +25,16 @@ canvas.draw-map {
     display: inline-block;
 }
 
+span.header {
+    width: 600;
+    display: inline-block;
+    
+    font-weight: 700;
+    font-size: 12pt;
+    
+    text-align: left;
+}
+
 img.hidden {
     display: none
 }
@@ -44,6 +54,11 @@ div.article_list {
     
     width: 594px;
     padding: 3px;
+}
+
+span.article_list_country {
+    text-align: left;
+    font-size: 12pt;
 }
 
 span.article_list_header {

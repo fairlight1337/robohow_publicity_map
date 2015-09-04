@@ -1,0 +1,43 @@
+<script type="text/javascript" src="js/world-data.js"></script>
+<script type="text/javascript" src="js/countries.js"></script>
+<script type="text/javascript" src="js/links.js"></script>
+<script type="text/javascript" src="js/canvas.js"></script>
+
+
+<html charset="ISO-8859-1">
+  <head>
+    <title>RoboHow - Press Coverage Worldwide</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    
+    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+  </head>
+  
+  <body onload="init_canvas(document.getElementById('map-display'), document.getElementById('world-map'));">
+    <img class="hidden" id="world-map" src="img/world_map.svg" />
+    
+    <center>
+      <span class="header">RoboHow - Press Coverage Worldwide</span>
+    </center>
+    
+    <div class="quickdetails" id="quickdetails">
+      <b><span id="quickcountry"></span></b>
+      <br />
+      <span id="quickarticles"></span>
+    </div>
+    
+    <center>
+      <canvas class="draw-map" id="map-display" width="600" height="322" onmousemove="mouse_move(event);" onmousedown="mouse_down(event);" onmouseup="mouse_up(event);">
+      </canvas>
+    </center>
+    <p />
+    <center>
+      <div class="article_list">
+	<span class="article_list_header">Articles<span class="article_list_country" id="article_list_country"></span></span>
+	<p />
+	<span id="article_list_contents">
+	  Please select a country to display articles
+	</span>
+      </div>
+    </center>
+  </body>
+</html>
