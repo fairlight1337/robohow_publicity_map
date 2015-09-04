@@ -224,8 +224,6 @@ function mouse_down(event) {
 function do_mousedown() {
     if(hovered_country != "") {
 	selected_country = hovered_country;
-	var dropdown = document.getElementById("country_list");
-	dropdown.value = selected_country;
 	
 	var contents = document.getElementById("article_list_contents");
 	var links = get_links_for_country(selected_country);
@@ -265,6 +263,9 @@ function do_mousedown() {
     scale_y = map_canvas.height / world_map.height;
     
     console.log("{\n\t\"x\": " + (mouse_x / scale_x) + ",\n\t\"y\": " + (mouse_y / scale_y) + "\n},");
+    
+    var dropdown = document.getElementById("country_list");
+    dropdown.value = selected_country;
 }
 
 
