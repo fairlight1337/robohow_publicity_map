@@ -32,6 +32,10 @@ select.country_list {
     width: 200px;
 }
 
+select.country_list:hover {
+    background-color: white;
+}
+
 span.dropdown {
     width: 201px;
     display: inline-block;
