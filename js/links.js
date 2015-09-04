@@ -106,19 +106,19 @@ link_data =
 	    "name": "بالفيديو.. روبوتات متطورة جديدة يمكنها تعلم الطبخ من الإنترنت",
 	    "portal": "Youm 7",
 	    "url": "http://www.youm7.com/story/2015/8/27/%D8%A8%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%B1%D9%88%D8%A8%D9%88%D8%AA%D8%A7%D8%AA-%D9%85%D8%AA%D8%B7%D9%88%D8%B1%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D9%8A%D9%85%D9%83%D9%86%D9%87%D8%A7-%D8%AA%D8%B9%D9%84%D9%85-%D8%A7%D9%84%D8%B7%D8%A8%D8%AE-%D9%85%D9%86-%D8%A7%D9%84%D8%A5%D9%86%D8%AA%D8%B1%D9%86%D8%AA/2323332#.Veb3D7PsaPQ",
-	    "country": "arabic"
+	    "country": "saudi arabia",
 	},
 	{
 	    "name": "این ربات پیتزا و پنکیک درست می‌کند +‌ ویدئو",
 	    "portal": "Azad News Agency",
 	    "url": "http://www.ana.ir/news/49581",
-	    "country": "arabic"
+	    "country": "iran"
 	},
 	{
 	    "name": "بالفيديو.. روبوتات لتعليم كيفية أداء المهام اليومية وتنفيذها",
 	    "portal": "Al-Sharq",
 	    "url": "http://www.al-sharq.com/news/details/364685#.Veb5pbPsaPQ",
-	    "country": "arabic"
+	    "country": "saudi arabia"
 	},
 	{
 	    "name": "Robots Learn to Make Pancakes from WikiHow Articles",
@@ -142,7 +142,7 @@ link_data =
 	    "name": "RoboHow, un proyecto para que robots aprendan a hacer tareas mediante la comprensión de instrucciones escritas",
 	    "portal": "Diario San Rafael",
 	    "url": "http://ftp.diariosanrafael.com.ar/secciones-fijas/tecnologia/47236-robohow-un-proyecto-para-que-robots-aprendan-a-hacer-tareas-mediante-la-comprension-de-instrucciones-escritas",
-	    "country": "middle south amerika"
+	    "country": "middle south america"
 	},
 	{
 	    "name": "This Robot Reads WikiHow Guides To Make Breakfast",
@@ -190,7 +190,7 @@ link_data =
 	    "name": "",
 	    "portal": "",
 	    "url": "https://nplus1.ru/news/2015/08/24/pancake-robots",
-	    "country": "Russia"
+	    "country": "russia"
 	},
 	{
 	    "name": "Want pancakes? Robots can help with RoboHow’s new Wikipedia for robots",
@@ -244,6 +244,48 @@ link_data =
 	    "name": "A German Robot Learned to Cook Pizza by Watching YouTube and Reading WikiHow Read more at: http://tr.im/S5fjh",
 	    "portal": "Observer",
 	    "url": "http://observer.com/2015/08/a-german-robot-learned-to-cook-pizza-by-watching-youtube-and-reading-wikihow/",
+	    "country": ""
+	},
+	{
+	    "name": "",
+	    "portal": "",
+	    "url": "http://cacm.acm.org/news/191283-robots-learn-to-make-pancakes-from-wikihow-articles/fulltext",
+	    "country": ""
+	},
+	{
+	    "name": "Robots Learn to Make Pancakes From WikiHow Articles",
+	    "portal": "Communications of the ACM",
+	    "url": "http://humanoides.fr/2015/08/creer-base-donnees-pour-aider-robots-dans-taches-quotidiennes/",
+	    "country": ""
+	},
+	{
+	    "name": "A data base to help robots in their daily tasks",
+	    "portal": "Humanoids",
+	    "url": "http://humanoids.io/2015/08/data-base-help-robots-daily-tasks/",
+	    "country": ""
+	},
+	{
+	    "name": "RoboHow",
+	    "portal": "Positive Impact Magazine",
+	    "url": "http://positiveimpactmagazine.com/daily-articles/business-enterprise/products-business-enterprise/robohow/",
+	    "country": ""
+	},
+	{
+	    "name": "This robot reads WikiHow guides to make breakfast",
+	    "portal": "The Economic Times",
+	    "url": "http://economictimes.indiatimes.com/news/science/This-robot-reads-WikiHow-guides-to-make-breakfast/articleshow/48679447.cms",
+	    "country": ""
+	},
+	{
+	    "name": "ROBOHOW: WIKIPEDIA STYLE DATABASE TRANSLATES WIKIHOW RECIPES SO ROBOTS CAN FOLLOW THEM",
+	    "portal": "European Business News",
+	    "url": "https://www.euro-business-news.com/robohow-wikipedia-style-database-translates-wikihow-recipes-so-robots-can-follow-them/",
+	    "country": ""
+	},
+	{
+	    "name": "Robots' Best Teachers Are Other Robots (in Cloud Networks)",
+	    "portal": "Bloomberg Business",
+	    "url": "http://www.bloomberg.com/bw/articles/2014-07-03/transfer-learning-robots-teach-other-robots-via-the-cloud",
 	    "country": ""
 	}
     ]
