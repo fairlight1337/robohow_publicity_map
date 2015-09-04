@@ -31,8 +31,8 @@ link_data =
 	    "country": "france"
 	},
 	{
-	    "name": "La Stampa",
-	    "portal": "Così i robot imparano a cucinare la pizza con le guide di WikiHow",
+	    "name": "Così i robot imparano a cucinare la pizza con le guide di WikiHow",
+	    "portal": "La Stampa",
 	    "url": "http://www.lastampa.it/2015/08/30/tecnologia/cos-i-robot-imparano-a-cucinare-la-pizza-con-le-guide-di-wikihow-6EFKClFlWUA0uZydCmr0zK/pagina.html",
 	    "country": "italy"
 	},
@@ -61,14 +61,14 @@ link_data =
 	    "country": "poland"
 	},
 	{
-	    "name": "International Business Times",
-	    "portal": "RoboHow: Wikipedia style database translates WikiHow recipes so robots can follow them",
+	    "name": "RoboHow: Wikipedia style database translates WikiHow recipes so robots can follow them",
+	    "portal": "International Business Times",
 	    "url": "http://www.ibtimes.co.uk/robohow-wikipedia-style-database-translates-wikihow-recipes-so-robots-can-follow-them-1516880",
 	    "country": "united kingdom"
 	},
 	{
-	    "name": "Wired",
-	    "portal": "http://www.wired.co.uk/news/archive/2015-08/28/robot-chef-makes-pancakes",
+	    "name": "This robot chef can make pancakes and pizza",
+	    "portal": "Wired",
 	    "url": "http://www.wired.co.uk/news/archive/2015-08/28/robot-chef-makes-pancakes",
 	    "country": "united kingdom"
 	},
@@ -142,7 +142,7 @@ link_data =
 	    "name": "RoboHow, un proyecto para que robots aprendan a hacer tareas mediante la comprensión de instrucciones escritas",
 	    "portal": "Diario San Rafael",
 	    "url": "http://ftp.diariosanrafael.com.ar/secciones-fijas/tecnologia/47236-robohow-un-proyecto-para-que-robots-aprendan-a-hacer-tareas-mediante-la-comprension-de-instrucciones-escritas",
-	    "country": "argentinia"
+	    "country": "argentina"
 	},
 	{
 	    "name": "This Robot Reads WikiHow Guides To Make Breakfast",
@@ -154,13 +154,13 @@ link_data =
 	    "name": "A German Robot Learned to Flip Pancakes from WikiHow",
 	    "portal": "the creators project",
 	    "url": "http://thecreatorsproject.vice.com/blog/a-german-robot-learned-to-flip-pancakes-from-wikihow",
-	    "country": ""
+	    "country": "united states"
 	},
 	{
 	    "name": "Pancake-making PR2 spells teachable future in robotics",
 	    "portal": "Reddit",
 	    "url": "https://www.reddit.com/r/Futurology/comments/3ipdt7/pancakemaking_pr2_spells_teachable_future_in/",
-	    "country": ""
+	    "country": "united states"
 	},
 	{
 	    "name": "",
@@ -172,23 +172,23 @@ link_data =
 	    "name": "From Roomba to Rosie: Getting Closer to the Chore-Free Home of the Future",
 	    "portal": "industry tap",
 	    "url": "http://www.industrytap.com/roomba-rosie-getting-closer-chore-free-home-future/30867",
-	    "country": ""
+	    "country": "united states"
 	},
 	{
 	    "name": "Ein Roboter aus Bremen hat mit Chefkoch-Videos Pizza backen gelernt",
 	    "portal": "Motherboard",
 	    "url": "http://motherboard.vice.com/de/read/deutsche-roboter-lernen-pfannkuchen-nach-einem-wikihow-zu-wenden-555",
-	    "country": ""
+	    "country": "germany"
 	},
 	{
 	    "name": "Pancake-making PR2 spells teachable future in robotics",
 	    "portal": "Tech Xplore",
 	    "url": "http://techxplore.com/news/2015-08-pancake-making-pr2-teachable-future-robotics.html",
-	    "country": ""
+	    "country": "united states"
 	},
 	{
-	    "name": "",
-	    "portal": "",
+	    "name": "Робот самостоятельно научился печь блинчики",
+	    "portal": "N+1",
 	    "url": "https://nplus1.ru/news/2015/08/24/pancake-robots",
 	    "country": "russia"
 	},
@@ -196,79 +196,79 @@ link_data =
 	    "name": "Want pancakes? Robots can help with RoboHow’s new Wikipedia for robots",
 	    "portal": "Digital Trends",
 	    "url": "http://www.digitaltrends.com/cool-tech/robohow-is-teaching-robots-practical-skills-so-that-they-can-make-you-pancakes/",
-	    "country": ""
+	    "country": "united states"
 	},
 	{
 	    "name": "RoboHow: the Wikipedia that teaches robots how to cook",
 	    "portal": "ZME Science",
 	    "url": "http://www.zmescience.com/science/robotics/robothow-teaches-robots-2384782793/",
-	    "country": ""
+	    "country": "united states"
 	},
 	{
 	    "name": "RoboHow Is Testing A Robot That Will Help You Have Your Cake And Eat It Too",
 	    "portal": "Tech Times",
 	    "url": "http://www.techtimes.com/articles/79597/20150826/robohow-pr2-robot-ai-open-ease-mit.htm",
-	    "country": ""
+	    "country": "united states"
 	},
 	{
 	    "name": "Robots are using wikiHow to figure out how to cook us breakfast",
 	    "portal": "Quartz",
 	    "url": "http://qz.com/487357/robots-are-using-wikihow-to-figure-out-how-to-cook-us-breakfast/",
-	    "country": ""
+	    "country": "united states"
 	},
 	{
 	    "name": "Soon robots could make you pancakes, among other things",
 	    "portal": "Fortune",
 	    "url": "http://fortune.com/2015/08/26/robots-food-pancakes-cooking/",
-	    "country": ""
+	    "country": "united states"
 	},
 	{
 	    "name": "ROBOHOW WORKING ON ROBOTS THAT CAN PREPARE PANCAKES FOR YOU",
 	    "portal": "NYC Today",
 	    "url": "http://nycity.today/content/284579-robohow-working-robots-can-prepare-pancakes-you",
-	    "country": ""
+	    "country": "united states"
 	},
 	{
 	    "name": "RoboHow: Wikipedia style database translates WikiHow recipes so robots can follow them",
 	    "portal": "Yahoo! News",
 	    "url": "https://uk.news.yahoo.com/robohow-wikipedia-style-database-translates-173700734.html",
-	    "country": ""
+	    "country": "united kingdom"
 	},
 	{
 	    "name": "RoboHow, un proyecto para que robots aprendan a hacer tareas mediante la comprensión de instrucciones escritas",
 	    "portal": "Noticias de Tecnologia",
 	    "url": "http://www.noticias-tecnologia.com.ar/ciencia/robohow-un-proyecto-para-que-robots-aprendan-a-hacer-tareas-mediante-la-comprension-de-instrucciones-escritas/",
-	    "country": ""
+	    "country": "argentina"
 	},
 	{
-	    "name": "A German Robot Learned to Cook Pizza by Watching YouTube and Reading WikiHow Read more at: http://tr.im/S5fjh",
+	    "name": "A German Robot Learned to Cook Pizza by Watching YouTube and Reading WikiHow",
 	    "portal": "Observer",
 	    "url": "http://observer.com/2015/08/a-german-robot-learned-to-cook-pizza-by-watching-youtube-and-reading-wikihow/",
-	    "country": ""
-	},
-	{
-	    "name": "",
-	    "portal": "",
-	    "url": "http://cacm.acm.org/news/191283-robots-learn-to-make-pancakes-from-wikihow-articles/fulltext",
-	    "country": ""
+	    "country": "united states"
 	},
 	{
 	    "name": "Robots Learn to Make Pancakes From WikiHow Articles",
 	    "portal": "Communications of the ACM",
+	    "url": "http://cacm.acm.org/news/191283-robots-learn-to-make-pancakes-from-wikihow-articles/fulltext",
+	    "country": "united states"
+	},
+	{
+	    "name": "Créer une base de données pour aider les robots dans leurs tâches quotidiennes",
+	    "portal": "Humanoids France",
 	    "url": "http://humanoides.fr/2015/08/creer-base-donnees-pour-aider-robots-dans-taches-quotidiennes/",
-	    "country": ""
+	    "country": "france"
 	},
 	{
 	    "name": "A data base to help robots in their daily tasks",
-	    "portal": "Humanoids",
+	    "portal": "Humanoids IO",
 	    "url": "http://humanoids.io/2015/08/data-base-help-robots-daily-tasks/",
-	    "country": ""
+	    "country": "france"
 	},
 	{
 	    "name": "RoboHow",
 	    "portal": "Positive Impact Magazine",
 	    "url": "http://positiveimpactmagazine.com/daily-articles/business-enterprise/products-business-enterprise/robohow/",
-	    "country": ""
+	    "country": "united states"
 	},
 	{
 	    "name": "This robot reads WikiHow guides to make breakfast",
@@ -280,12 +280,12 @@ link_data =
 	    "name": "ROBOHOW: WIKIPEDIA STYLE DATABASE TRANSLATES WIKIHOW RECIPES SO ROBOTS CAN FOLLOW THEM",
 	    "portal": "European Business News",
 	    "url": "https://www.euro-business-news.com/robohow-wikipedia-style-database-translates-wikihow-recipes-so-robots-can-follow-them/",
-	    "country": ""
+	    "country": "belgium"
 	},
 	{
 	    "name": "Robots' Best Teachers Are Other Robots (in Cloud Networks)",
 	    "portal": "Bloomberg Business",
 	    "url": "http://www.bloomberg.com/bw/articles/2014-07-03/transfer-learning-robots-teach-other-robots-via-the-cloud",
-	    "country": ""
+	    "country": "united states"
 	}
     ]

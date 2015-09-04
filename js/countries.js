@@ -18,4 +18,5 @@ country_data =
      "china": {"name": "China"},
      "indonesia": {"name": "Indonesia"},
      "vietnam": {"name": "Vietnam"},
-     "argentinia": {"name": "Argentinia"}};
+     "argentina": {"name": "Argentina"},
+     "belgium": {"name": "Belgium"}};
