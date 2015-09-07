@@ -1,7 +1,11 @@
+html {
+}
+
 body {
     margin: 0px;
     margin-top: 20px;
     background-color: white;
+    overflow-x: hidden;
     overflow-y: scroll;
 }
 
