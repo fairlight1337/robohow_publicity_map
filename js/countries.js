@@ -64,4 +64,6 @@ country_data =
      "chile": {"name": "Chile"},
      "brazil": {"name": "Brazil"},
      "belgium": {"name": "Belgium"},
-     "monaco": {"name": "Monaco"}};
+     "monaco": {"name": "Monaco"},
+     "india": {"name": "India"},
+     "mexico": {"name": "Mexico"}};

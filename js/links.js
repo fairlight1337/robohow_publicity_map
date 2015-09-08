@@ -374,5 +374,17 @@ link_data =
 	    "portal": "Notícias Ao Minuto",
 	    "url": "http://www.noticiasaominuto.com/tech/440404/uniao-europeia-cria-wikipedia-para-robots",
 	    "country": "portugal"
+	},
+	{
+	    "name": "Findings of the Week",
+	    "portal": "The New Indian Express",
+	    "url": "http://www.newindianexpress.com/lifestyle/food/Findings-of-the-Week/2015/09/05/article3008999.ece",
+	    "country": "india"
+	},
+	{
+	    "name": "Este robot aprende a hacer hot cakes viendo recetas en Google",
+	    "portal": "Milenio -- Tendencias",
+	    "url": "http://www.milenio.com/tendencias/Instituto_de_Inteligencia_Artificial-Robot_cocinero_PR2-Google-Bremen_0_585541541.html",
+	    "country": "mexico"
 	}
     ]
